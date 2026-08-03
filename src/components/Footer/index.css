@@ -1,0 +1,313 @@
+/* ==========================
+   FOOTER
+========================== */
+
+.footer {
+
+    width: 100%;
+
+    background: #050F3A;
+
+    padding-top: 90px;
+
+    border-top: 1px solid rgba(255,255,255,.08);
+}
+
+/* TOP */
+
+.footer-top {
+
+    width: 100%;
+
+    max-width: 1280px;
+
+    margin: auto;
+
+    padding: 0 24px 70px;
+
+    display: grid;
+
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+
+    gap: 60px;
+}
+
+/* LOGO */
+
+.footer-logo {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    margin-bottom: 30px;
+}
+
+.logo-circle {
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+    background: #2563EB;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    font-weight: bold;
+}
+
+.footer-logo h2 {
+
+    color: white;
+
+    font-size: 30px;
+}
+
+.footer-about p {
+
+    color: #9CA3AF;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    max-width: 330px;
+}
+
+/* MSME */
+
+.msme-badge {
+
+    margin-top: 30px;
+
+    display: inline-block;
+
+    padding: 10px 18px;
+
+    border-radius: 40px;
+
+    background: rgba(255,255,255,.05);
+
+    color: white;
+
+    font-size: 12px;
+}
+
+.msme-logo {
+
+    margin-top: 20px;
+
+    width: 140px;
+
+    height: 50px;
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    border-radius: 10px;
+}
+
+/* COLUMNS */
+
+.footer-column h3 {
+
+    color: white;
+
+    margin-bottom: 24px;
+
+    font-size: 22px;
+}
+
+.footer-column {
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.footer-column a {
+
+    color: #9CA3AF;
+
+    text-decoration: none;
+
+    margin-bottom: 18px;
+
+    transition: .3s;
+}
+
+.footer-column a:hover {
+
+    color: white;
+}
+
+.small {
+
+    color: #9CA3AF;
+
+    margin-bottom: 24px;
+}
+
+.email {
+
+    color: #6EA3FF !important;
+
+    font-weight: 600;
+}
+
+.socials {
+
+    display: flex;
+
+    gap: 18px;
+
+    margin-top: 30px;
+}
+
+.socials a {
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.05);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    font-size: 18px;
+}
+
+/* BOTTOM */
+
+.footer-bottom {
+
+    border-top: 1px solid rgba(255,255,255,.08);
+
+    max-width: 1280px;
+
+    margin: auto;
+
+    padding: 24px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.footer-bottom p {
+
+    color: #7E89A8;
+
+    font-size: 13px;
+
+    letter-spacing: 1px;
+}
+
+.footer-links {
+
+    display: flex;
+
+    gap: 40px;
+}
+
+.footer-links a {
+
+    color: #7E89A8;
+
+    text-decoration: none;
+
+    font-size: 13px;
+}
+
+/* ==========================
+TABLET
+========================== */
+
+@media(max-width:992px){
+
+.footer-top{
+
+grid-template-columns:repeat(2,1fr);
+
+gap:50px;
+}
+
+.footer-bottom{
+
+flex-direction:column;
+
+gap:20px;
+}
+
+}
+
+/* ==========================
+MOBILE
+========================== */
+
+@media(max-width:768px){
+
+.footer{
+
+padding-top:60px;
+}
+
+.footer-top{
+
+grid-template-columns:1fr;
+
+padding:0 20px 50px;
+}
+
+.footer-logo h2{
+
+font-size:24px;
+}
+
+.footer-column h3{
+
+font-size:20px;
+}
+
+.footer-links{
+
+flex-direction:column;
+
+gap:10px;
+
+align-items:center;
+}
+
+.footer-bottom{
+
+text-align:center;
+}
+
+}

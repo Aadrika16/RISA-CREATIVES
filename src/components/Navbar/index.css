@@ -1,0 +1,102 @@
+.navbar{
+    width:90%;
+    margin:auto;
+    margin-top:30px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:12px 20px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(20px);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    color:white;
+
+    font-weight:600;
+}
+
+.logo-icon{
+    color:#2563EB;
+}
+
+nav{
+    display:flex;
+    gap:35px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#B8C2E4;
+    font-size:14px;
+}
+
+.nav-right{
+    display:flex;
+    gap:12px;
+    align-items:center;
+}
+
+.theme-btn{
+
+    width:40px;
+    height:40px;
+    border-radius:50%;
+
+    border:none;
+
+    background:transparent;
+
+    color:white;
+
+    cursor:pointer;
+}
+
+.start-btn{
+
+    background:white;
+
+    color:#020617;
+
+    border:none;
+
+    padding:13px 25px;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    cursor:pointer;
+}
+
+@media(max-width:900px){
+
+nav{
+display:none;
+}
+
+.navbar{
+
+width:95%;
+}
+
+.start-btn{
+
+padding:10px 18px;
+
+font-size:14px;
+}
+
+}
