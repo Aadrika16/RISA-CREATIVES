@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RISA-CREATIVES/static/css/main.dcabdbc1.css",
+    "main.js": "/RISA-CREATIVES/static/js/main.37a8d8f8.js",
+    "static/js/453.ae20ec71.chunk.js": "/RISA-CREATIVES/static/js/453.ae20ec71.chunk.js",
+    "index.html": "/RISA-CREATIVES/index.html",
+    "main.dcabdbc1.css.map": "/RISA-CREATIVES/static/css/main.dcabdbc1.css.map",
+    "main.37a8d8f8.js.map": "/RISA-CREATIVES/static/js/main.37a8d8f8.js.map",
+    "453.ae20ec71.chunk.js.map": "/RISA-CREATIVES/static/js/453.ae20ec71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcabdbc1.css",
+    "static/js/main.37a8d8f8.js"
+  ]
+}
